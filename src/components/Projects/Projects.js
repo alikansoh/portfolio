@@ -6,8 +6,6 @@ import bone from "../../Assets/Projects/boneguy.png";
 import emotion from "../../Assets/Projects/spaceloom.png";
 import digit from "../../Assets/Projects/digitcrops.png";
 import ttl from "../../Assets/Projects/ttl.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
