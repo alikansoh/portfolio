@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import bone from "../../Assets/Projects/boneguy.png";
+import emotion from "../../Assets/Projects/spaceloom.png";
+import digit from "../../Assets/Projects/digitcrops.png";
+import ttl from "../../Assets/Projects/ttl.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,56 +23,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bone}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Bone Guy"
+              description=" e-commerce platform for pet food products, focusing exclusively on cat and dog nutrition, using the MERN stack. This platform offers a comprehensive selection of pet food items, from dry kibble to wet canned food, catering to various dietary needs and preferences. It features advanced filtering capabilities, enabling users to easily find products based on brand, type, and specific nutritional requirements, enhancing the shopping experience by presenting only the most relevant options. The platform's design prioritizes user convenience and accessibility, ensuring pet owners can quickly find the right food for their pets.
+
+              "
+              ghLink="https://github.com/aliartach/real-client-project-front"
+              demoLink="https://boneguy.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={digit}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Digit crops "
+              description=" platform designed to facilitate the purchase of social media followers and engagement, leveraging the MERN stack for its robustness and scalability. This platform serves as a marketplace where businesses and individuals can buy targeted followers and engagement packages to boost their online presence. Utilizing MongoDB for database management, Express.js for server-side logic, React for a dynamic user interface, and Node.js for server execution, the platform ensures a seamless and secure user experience"
+              ghLink="https://github.com/alikansoh/Digit-gorw"
+              demoLink="https://digitcrops.netlify.app/"
             />
           </Col>
 
@@ -80,11 +48,22 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Space loom"
+              description="The Interior Design Visualization Tool is a cutting-edge platform designed to revolutionize the way people visualize and plan their interior spaces. Built on the MERN stack, this platform offers a comprehensive suite of features aimed at empowering users to explore, customize, and visualize their interior design projects with unparalleled precision and realism."
+              ghLink="https://github.com/alikansoh/Codi-grp2-frontend"
+              demoLink="https://spaceloom.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ttl}
+              isBlog={false}
+              title="TTL"
+              description="LebnenEle is a transformative digital platform designed to empower Lebanese students by providing them with access to educational resources and opportunities. Launched with a vision to serve as a beacon of hope, LebnenEle aims to bridge the gap between education and the realization of dreams for the youth of Lebanon. The platform is built on the MERN stack, ensuring a robust, scalable, and user-friendly experience for its users.
+
+              "
+              ghLink="https://github.com/FlightRipper/Project3-FrontEnd"
+              demoLink="https://main--deluxe-pasca-725a53.netlify.app/"
             />
           </Col>
         </Row>
